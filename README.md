@@ -24,7 +24,7 @@ Instruction encoding = [11:8] = opcode (4 bits)
                        [4:2] = rs = source address (3 bits)
 
 opcodes:
-0000: {carry, y} = a + b; // Addition 
+0000: {carry, y} = a + b (Addition) 
 0001: {carry, y} = a - b; // Subtraction 
 0010: y = a & b; // Bitwise AND 
 0011: y = a | b; // Bitwise OR 
